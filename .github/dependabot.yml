@@ -45,7 +45,7 @@ updates:
       interval: "monthly"
     ignore:
       - dependency-name: "*"
-      update-types: ["version-update:semver-major"]
+        update-types: ["version-update:semver-major"]
     reviewers: ["borisdj"]
   # Maintain dependencies for .NET projects
   - package-ecosystem: "github-actions"
@@ -69,7 +69,7 @@ updates:
       interval: "monthly"
     ignore:
       - dependency-name: "*"
-      update-types: ["version-update:semver-major"]
+        update-types: ["version-update:semver-major"]
     reviewers: ["borisdj"]
   # Maintain dependencies for .NET projects  
   - package-ecosystem: "github-actions"
